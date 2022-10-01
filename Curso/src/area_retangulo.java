@@ -1,14 +1,12 @@
-package application;
-
 import java.util.Scanner;
 
-import entites.retangulo;
+import entites.calc_retangulo;
 
-public class Exerc1 {
+public class area_retangulo {
 	public static void main(String[] args) {
 	
 	Scanner sc = new Scanner(System.in);
-	retangulo rec=new retangulo();
+	calc_retangulo rec=new calc_retangulo();
 	
 	
 	System.out.println("Digite os lados do retangulo");
