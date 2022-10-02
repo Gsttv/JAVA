@@ -20,8 +20,10 @@ public class Progama {
 		
 		System.out.print("Quantity in stock: ");
 		int quantity = sc.nextInt();
-		
+	
 		Produto product = new Produto(name, price, quantity);
+		product.setName("Computer");
+		
 		
 		System.out.println();
 		System.out.println("Product data: " + product);
