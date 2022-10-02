@@ -8,7 +8,7 @@ public class Banco {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("Digite o nome do titular da conta: ");
-		String nome = sc.next();
+		String nome = sc.nextLine();
 		
 		System.out.print("Digite o numero da conta: ");
 		int numero_conta = sc.nextInt();
